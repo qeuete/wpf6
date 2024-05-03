@@ -37,5 +37,9 @@ namespace vipief.View
         {
             this.NavigationService.Navigate(new CalendarPage());
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new CalendarPage());
+        }
     }   
 }
